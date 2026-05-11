@@ -10,7 +10,7 @@ docker --version
 
 sudo docker run hello-world
   
-#create a new github repo and then clone that just add using create file
+#create a new github repo and then clone that just add using create file use docker5_1
   
 git clone https://github.com/AishwaryaGirish12/docker5_1.git
 
