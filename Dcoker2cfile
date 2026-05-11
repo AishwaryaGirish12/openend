@@ -8,6 +8,10 @@ ls
 
 cd jenkins_docker1
 
+sudo rm -rf ~/.jenkins
+sudo rm jenkins.war
+wget https://get.jenkins.io/war-stable/latest/jenkins.war
+
 docker build -t my-python-app .
 
 docker images
