@@ -2,7 +2,7 @@ git config --global user.name "AishwaryaGirish12"
 
 git config --global user.email "aishwaryagirish1211@gmail.com"
 
-git clone https://github.com/akashks05/jenkins_docker1.git
+git clone https://github.com/AishwaryaGirish12/docker_b_2.git
 
 ls
 
@@ -12,13 +12,14 @@ docker build -t my-python-app .
 
 docker images
 
-docker tag my-python-app:latest akashks05/my-python-app:latest
+docker tag my-python-app:latest aishwaryagirish/my-python-app:latest
 
 docker images
 
-docker login -u akashks05
+docker login -u aishwaryagirish
+pass Devops26@
 
-docker push akashks05/my-python-app:latest
+docker push aishwaryagirish/my-python-app:latest
 
 cd ..
 
