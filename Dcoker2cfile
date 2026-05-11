@@ -1,0 +1,36 @@
+git config --global user.name "AishwaryaGirish12"
+
+git config --global user.email "aishwaryagirish1211@gmail.com"
+
+git clone https://github.com/akashks05/jenkins_docker1.git
+
+ls
+
+cd jenkins_docker1
+
+docker build -t my-python-app .
+
+docker images
+
+docker tag my-python-app:latest akashks05/my-python-app:latest
+
+docker images
+
+docker login -u akashks05
+
+docker push akashks05/my-python-app:latest
+
+cd ..
+
+java -jar jenkins.war --httpPort=8090
+
+http://localhost:8090
+
+Then continue Jenkins setup:
+
+Install Suggested Plugins
+Create Admin User
+Install Docker Pipeline Plugin
+Add DockerHub Credentials
+Create New Pipeline Job
+Build Now
